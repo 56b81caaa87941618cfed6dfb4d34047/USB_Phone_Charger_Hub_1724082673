@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1724082676", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About USB Phone Chargers</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1724082676", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What is the difference between fast charging and regular charging?", description: "Fast charging delivers higher wattage to your device, allowing it to charge more quickly than regular charging. While standard USB chargers typically provide 5W of power, fast chargers can deliver up to 100W, significantly reducing charging time.", expanded: false },
+                { title: "Are all USB chargers compatible with my phone?", description: "Most modern smartphones are compatible with standard USB chargers. However, for optimal charging speed and safety, it's best to use the charger that came with your phone or one that meets your device's specific charging requirements.", expanded: false },
+                { title: "Can using a third-party USB charger damage my phone?", description: "Using a high-quality, certified third-party USB charger is generally safe. However, low-quality or uncertified chargers may pose risks such as overheating, short-circuiting, or damaging your phone's battery. Always choose chargers from reputable brands that meet safety standards.", expanded: false },
+                { title: "What should I look for when buying a USB phone charger?", description: "When purchasing a USB phone charger, consider factors such as charging speed (wattage), compatibility with your device, number of ports, safety certifications, brand reputation, and additional features like foldable plugs or compact design for portability.", expanded: false },
             ],
         };
     },
