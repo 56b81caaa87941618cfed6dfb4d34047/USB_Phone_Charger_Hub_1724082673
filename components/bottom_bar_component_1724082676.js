@@ -3,7 +3,7 @@ It has two buttons: Contact button that directs to the contact page and Pay butt
 */
 Vue.component("bottom_bar_component_1724082676", {
     template: `
-    <section id="bottom-bar-component" style="min-height: 270px" class="fixed bottom-0 z-30 w-full lg:w-1/2 !bg-opacity-80 backdrop-blur-sm bg-white dark:bg-slate-950">
+    <section id="bottom-bar-component" style="min-height: 190px" class="fixed bottom-0 z-30 w-full lg:w-1/2 !bg-opacity-80 backdrop-blur-sm bg-white dark:bg-slate-950">
         <div id="bottom-bar-component-content" class="w-full max-w-xl mx-auto px-4 sm:px-6">
             <div id="action-buttons" class="flex py-4 md:py-6 space-x-4 justify-center">
                 <a id="contact-button" class="btn flex items-center justify-center w-1/2 h-12 p-3 text-slate-900 dark:text-slate-200 dark:bg-slate-900 rounded-lg hover:border-slate-300 dark:border-slate-800 dark:hover:border-slate-700 border shadow-lg transition duration-200 ease-in-out" href="contact.html">Contact</a>
